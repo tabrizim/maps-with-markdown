@@ -17,9 +17,9 @@ var blueURL = "http://maps.google.com/mapfiles/ms/icons/blue-dot.png";
 var redURL = "http://maps.google.com/mapfiles/ms/icons/red-dot.png";
 var red_markers = [];
 var blue_markers = [];
-var kmlLayer = new google.maps.KmlLayer();
+//var kmlLayer = new google.maps.KmlLayer();
 
-var src = 'https://github.com/tabrizim/maps-with-markdown/blob/master/The%20Log%20of%20Christopher%20Columbus%20A%20Map%20of%20His%20First%20Voyage.kml';
+var src = 'https://raw.githubusercontent.com/tabrizim/maps-with-markdown/master/columbus.kml';
 
 
 /* a function that will run when the page loads.  It creates the map
@@ -86,14 +86,18 @@ function initialize() {
         }
 
     }
+    loadkml();
     document.getElementById("map_legend").innerHTML = legendHTML;
 
 }
-var kmlLayer = new google.maps.KmlLayer(src, {
-  suppressInfoWindows: true,
-  preserveViewport: false,
-  map: my_map
-});
+function loadkml(){
+  var kmlLayer = new google.maps.KmlLayer(src, {
+    suppressInfoWindows: true,
+    preserveViewport: false,
+    map: my_map
+  });
+}
+
 // this hides all markers in the array
 // passed to it, by attaching them to
 // an empty object (instead of a real map)
