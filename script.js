@@ -17,6 +17,9 @@ var blueURL = "http://maps.google.com/mapfiles/ms/icons/blue-dot.png";
 var redURL = "http://maps.google.com/mapfiles/ms/icons/red-dot.png";
 var red_markers = [];
 var blue_markers = [];
+var kmlLayer = new google.maps.KmlLayer();
+
+var src = 'https://github.com/tabrizim/maps-with-markdown/blob/master/The%20Log%20of%20Christopher%20Columbus%20A%20Map%20of%20His%20First%20Voyage.kml';
 
 
 /* a function that will run when the page loads.  It creates the map
@@ -25,12 +28,14 @@ function initialize() {
     my_map_options = {
         center:  my_center, // to change this value, change my_center above
         zoom: 13,  // higher is closer-up
-        mapTypeId: google.maps.MapTypeId.HYBRID // you can also use TERRAIN, STREETMAP, SATELLITE
+        mapTypeId: google.maps.MapTypeId.STREETMAP // you can also use TERRAIN, STREETMAP, SATELLITE
     };
 
     // this one line creates the actual map
     my_map = new google.maps.Map(document.getElementById("map_canvas"),
                                  my_map_options);
+
+
     // this is an *array* that holds all the marker info
     var all_my_markers =
             [{position: new google.maps.LatLng(41.9000,12.5000),
@@ -63,7 +68,7 @@ function initialize() {
             window_content: all_my_markers[j].window_content});
 
         // this next line is ugly, and you should change it to be prettier.
-        // be careful not to introduce syntax errors though.  
+        // be careful not to introduce syntax errors though.
         legendHTML += "<div class=\"pointer\" onclick=\"locateMarker(my_markers[" + j + "])\"> <h3>" + marker.title + "</h3><div>" + marker.window_content + "</div></div>";
         marker.info = new google.maps.InfoWindow({content: marker.window_content});
         var listener = google.maps.event.addListener(marker, 'click', function() {
@@ -79,12 +84,16 @@ function initialize() {
         } else if (all_my_markers[j].icon == redURL ) {
             red_markers.push({marker:marker, listener:listener});
         }
-        
+
     }
     document.getElementById("map_legend").innerHTML = legendHTML;
-   
-}
 
+}
+var kmlLayer = new google.maps.KmlLayer(src, {
+  suppressInfoWindows: true,
+  preserveViewport: false,
+  map: my_map
+});
 // this hides all markers in the array
 // passed to it, by attaching them to
 // an empty object (instead of a real map)
@@ -102,7 +111,7 @@ function showMarkers (marker_array, map) {
 }
 
 // I added this for fun.  It allows you to trigger the infowindow
-// form outside the map.  
+// form outside the map.
 function locateMarker (marker) {
     console.log(marker);
     my_map.panTo(marker.marker.position);

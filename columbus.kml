@@ -1,0 +1,890 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Untitled layer</name>
+    <Style id="icon-102-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/102-pink.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-102-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/102-pink.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-102">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-102-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-102-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-111-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/111-purple-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-111-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/111-purple-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-111">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-111-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-111-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-124-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/124-red.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-124-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/124-red.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-124">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-124-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-124-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-125-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/125-restaurant.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-125-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/125-restaurant.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-125">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-125-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-125-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-145-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/145-tree.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-145-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/145-tree.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-145">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-145-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-145-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-164-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/164-ltblu-pushpin.png</href>
+        </Icon>
+        <hotSpot x="10" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-164-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/164-ltblu-pushpin.png</href>
+        </Icon>
+        <hotSpot x="10" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-164">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-164-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-164-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-168-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/168-ylw-pushpin.png</href>
+        </Icon>
+        <hotSpot x="10" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-168-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/168-ylw-pushpin.png</href>
+        </Icon>
+        <hotSpot x="10" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-168">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-168-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-168-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-187-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/187-rainy.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-187-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/187-rainy.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-187">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-187-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-187-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-193-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/193-sunny.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-193-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/193-sunny.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-193">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-193-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-193-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-22-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-22-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-22">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-41-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/41-dollar.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-41-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/41-dollar.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-41">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-41-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-41-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-53-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/53-fishing.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-53-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/53-fishing.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-53">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-53-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-53-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-55-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/55-flag.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-55-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/55-flag.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-55">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-55-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-55-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-61-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/61-green-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-61-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/61-green-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-61">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-61-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-61-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-619-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/619-volcano_small.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-619-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/619-volcano_small.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-619">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-619-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-619-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-69-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/69-homegardenbusiness.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-69-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/69-homegardenbusiness.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-69">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-69-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-69-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0000FF-5-nodesc-normal">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-0000FF-5-nodesc-highlight">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>8</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-0000FF-5-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0000FF-5-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0000FF-5-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-990000-5-normal">
+      <LineStyle>
+        <color>ff000099</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-990000-5-highlight">
+      <LineStyle>
+        <color>ff000099</color>
+        <width>8</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-990000-5">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-990000-5-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-990000-5-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-990000-5-nodesc-normal">
+      <LineStyle>
+        <color>ff000099</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-990000-5-nodesc-highlight">
+      <LineStyle>
+        <color>ff000099</color>
+        <width>8</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-990000-5-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-990000-5-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-990000-5-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Palos</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/S8nrJU75cRb__n3kC_xzohmxNoNreOqUX3iEn3hyGpcao6MDyTyxWWysatO_2uSg-6mtnadyoC4z5ML9lnSlMA" height="200" width="auto" /><br><br>Departure: August 3, 1492<br><br> <br>Columbus prepared his three vessels for this voyage at Palos. They included the Pinta, with the captain Martin Alonso Pinzo; the Santa Maria; and the Nina. However, there is some discrepency of where Columbus actually departed from. In he introduction of the log, Coumbus clearly states that he departed from Palos on a Friday "a half hour before sunrise," ; however, later he says he leaves from the Bar of Saltes which is further down river.]]></description>
+      <styleUrl>#icon-69</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/proxy/S8nrJU75cRb__n3kC_xzohmxNoNreOqUX3iEn3hyGpcao6MDyTyxWWysatO_2uSg-6mtnadyoC4z5ML9lnSlMA</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -6.893426,37.228193,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bar of Saltés</name>
+      <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/pqhOhSD9dWsvWS0UyO7o5nUmh62_ICaO7187Z3EffygqD_XfbSQC-f1Ze-HQRJjFJk47wqpFu28fdMzK8J7odDERkZfH-d5L8uI" height="200" width="auto" /><br><br>Friday, 3 Aug. 1492<br><br>"We set sail on this third day of August 1492, at 8 o'clock in the morning, from the bar of the Saltes." <br> <br>Because the Bar of Saltes is a sandbar, Columbus and his men on the two other ships had to wait until high tide to safely clear it. However, even though this is what Columbus was worried about, it is in fact not what impedes the journey. A little farther out to sea, Columbu realizes that the rudder to the Pinta is loose. He immediately blames Gomez Rascon and Cristobal Quintero, who did not want to make the voyage out of fright.]]></description>
+      <styleUrl>#icon-111</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh4.googleusercontent.com/proxy/pqhOhSD9dWsvWS0UyO7o5nUmh62_ICaO7187Z3EffygqD_XfbSQC-f1Ze-HQRJjFJk47wqpFu28fdMzK8J7odDERkZfH-d5L8uI</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -6.933333,37.183333,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Grand Canary (Las Palmas de Gran Canaria)</name>
+      <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/WhP-_QN1uUnApmKKme9NZPOD8CVeWEThed7Bmtyu5Z5nd_OYu7f6ahj5ynQfJAa0QpdPhwHa_VrQtM5T979lTFfQf1GqnCwV8Y_llkaGgo5J-Qi7_YAl-RKdctAm0xL-8FPTtQ0z" height="200" width="auto" /><br><br>Thursday, 9 Aug. 1492<br><br>"I decide to go to grand Canary and leave the Pinta there, for she was badly disabled and leaking."<br><br>Thus, on August 9 1492, the Pinta reached Grand Canary and Columbus left the vessel there with Martin Alonso until it could be properly repaired or replaced. Columbus deduces that if he were to reach Gomera and there was not another ship there, he would return with it. However, if there was not a new ship at Gomera, he would return in a few days and assist with the repairs.]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh4.googleusercontent.com/proxy/WhP-_QN1uUnApmKKme9NZPOD8CVeWEThed7Bmtyu5Z5nd_OYu7f6ahj5ynQfJAa0QpdPhwHa_VrQtM5T979lTFfQf1GqnCwV8Y_llkaGgo5J-Qi7_YAl-RKdctAm0xL-8FPTtQ0z</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -15.430007,28.124823,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Gomera</name>
+      <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/6XYs0WPPHxna1MMJR9dJfjWApkklFQdnMJXo2hWdG3oGCD5ncbZTvbAvR2oCRjqXZliiT130lD3YqrHPYleVTnc7M_vtNrbqi-sm2IkH4FNa3_Co_nTjZI3F7A" height="200" width="auto" /><br><br>Sunday, 12 Aug. 1492<br><br> <br>After three days with not a breath of wind to push the sails, Columbus finally reached Gomera.<br> <br>Here, he waited thirteen days for the return of this island's governor, Dona Beatriz de Peraza y Bobadilla, to get a new ship to replace the Pinta. Also, he awaited news on the Pinta from Martin Alonso, but received none. Most importantly, he and his crew members from the three ships obtained provisions like meat, water and wood. <br><br>On Friday, August 24, 1492, he left Gomera when Dona Beatriz did not return and set to Grand Canary once again create a new rudder for the Pinta.]]></description>
+      <styleUrl>#icon-125</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh6.googleusercontent.com/proxy/6XYs0WPPHxna1MMJR9dJfjWApkklFQdnMJXo2hWdG3oGCD5ncbZTvbAvR2oCRjqXZliiT130lD3YqrHPYleVTnc7M_vtNrbqi-sm2IkH4FNa3_Co_nTjZI3F7A</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -17.21357,28.029922,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tenerife</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/-sNT2FGLQTpd-TNY7vhXP0O5I03TRL4_mVA13qOTFPmR7ZNqoVuYuYLlli6Hf5qUYzWet71dsrDlUfg7BXN-0Fs0o4w6HbdHaw2r0DTq9w" height="200" width="auto" /><br><br>Friday, 24 Aug. 1492<br> <br>Off the coast of Tenerife, the crew saw the eruption of a great volcano on the island. This was a totally new sight for all of Columbus's men; however, with his previous experiences in Sicily with Mount Etna, he calmed his crew down.<br> <br>Clearly, one can see the composure that Columbus displays. One of the measures of a good Admiral is to take leadership over the ship and his crew. This quality will inevitably prove vital in more unsure times of the journey.]]></description>
+      <styleUrl>#icon-619</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/proxy/-sNT2FGLQTpd-TNY7vhXP0O5I03TRL4_mVA13qOTFPmR7ZNqoVuYuYLlli6Hf5qUYzWet71dsrDlUfg7BXN-0Fs0o4w6HbdHaw2r0DTq9w</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -16.655273,28.343065,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sargasso Sea</name>
+      <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/rihQd-LDAk9cegLYua9jDIenJ4AUVUTOQHb_yWOvqnck8uq6crbdYDXJt3AVqMSWGao1qJa5sbIXElMWD8VCwzzpoW8VVhqbZ0uFgMSteL476tGAnQ" height="200" width="auto" /><br><br>A frigate-bird<br> <br>Monday, 17 Sep. 1492<br><br>Here, Columbus and his crew sees sargasso weed, which is a sign that they are close to land. Moreover, the seas are gentle and less salty than they were near the Canary Islands. Evidently, the crew must have felt more comfortable at this point with all these good signs. As the ship approaches land, many birds are seen. Columbus spots pigeons, boobies, and dorados that come close to the vessel. At times, they kill a few for food. In this part of the voyage, the crew puts their faith in God for giving them favorable conditions in which to navigate. Finally, the ships spot land and fire a cannon in celebration as the practice states.]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh5.googleusercontent.com/proxy/rihQd-LDAk9cegLYua9jDIenJ4AUVUTOQHb_yWOvqnck8uq6crbdYDXJt3AVqMSWGao1qJa5sbIXElMWD8VCwzzpoW8VVhqbZ0uFgMSteL476tGAnQ</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -66.175,28.335556,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>San Salvador (Samana Cay)</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/-RNtQ_BJSR6HmwJvrFqHRn9IUiUXKpXTPdJkmVQAY_EiQp36GqLuQucKqWJ-OOAamf_N66alYkHr-yh2zobK6En5u1I-f8Rj8zMJ" height="200" width="auto" /><br><br>Friday, 12 Oct. 1492 <br> <br>After long days of voyage, Columbus finally saw the light, which was "the first positive indication of land". <br> <br>The next day they saw many naked people who appeared friendly, carrying parrots, balls of cotton thread, spears, and many other things to them by boats made of logs. Columbus has reached the island Guanahani, as the natives call it. Immediately, Columbus is captivated by the island for its lush diverse vegetation and for the people whom inhabit it. When the natives come to the boat bearing gifts, Columbus exchanges red caps and glass beads to hang around their necks. According to him, these people will make good Christians when they are converted.<br><br> <br>Columbus describes these people as mostly young who seem to be tall and fit. However, the curiosity is felt by both. The natives assume that Columbus and his crewman are "from the sky" and he does not object to this assumption. He uses the people's misconception to his advantage. He sees that many have gold pieces in their noses and automatically wants to know where it came from so he too could have some to bring back to Spain. After much interrogation, Columbus realizes that this island does not in fact have many deposits of gold.]]></description>
+      <styleUrl>#icon-168</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/proxy/-RNtQ_BJSR6HmwJvrFqHRn9IUiUXKpXTPdJkmVQAY_EiQp36GqLuQucKqWJ-OOAamf_N66alYkHr-yh2zobK6En5u1I-f8Rj8zMJ</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -74.473572,24.053988,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fernandina Island</name>
+      <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/34Kl2e4y8IrDTbyUsNBpQFn5IqT9_NWQsU91DsipTKX2jMeMIfc3awQLBKJBHBNIsrRYm3LoIAeOU5432y4M0pVIxXlvNSDOu3IOn3elsU0rw0G78g85e61HKu2N9PY9peAhgg" height="200" width="auto" /><br><br>Wednesday, 17 Oct. 1492 <br> <br>Columbus landed on a large island and named it "Fernandina."<br><br> <br>The island, like the others is very lush with greenery and has many different trees Columbus has never seen before back in Spain. Furthermore, the inhabitants seem "more civilized." They appear to be more intelligent and more disposed to bargain. Surprisingly, according to Columbus, they even wear cloth over their genial areas.<br> <br>"They even carried the full casks to the boat and took great delight in pleasing us." Clearly, this quotation shows the people's compliance and giving the crew gifts.<br> <br>But Columbus honestly expressed his attempt to find gold, which he emphasize for several times that it was for "Your Highnesses."<br> <br>However, despite the people civility, Columbus found no trace of religion. He therefore supposes that they would be "christianized" quickly.<br> <br> <br><br> Mamey<br><br> <br><br>Guayaba<br><br><img src="https://lh6.googleusercontent.com/proxy/gy8R9qpHKfOnW0d5huqIFVT1ZhYLn1rDaKht74aLXRQMDZtLIuBDEaMTHhBwrq9c6r0sTgSUQOQNVg5AiQ" height="200" width="auto" /><br><br><img src="https://lh4.googleusercontent.com/proxy/thXjFHWoycTXhBav30c2iKo3EfXN1kgh8VbU_yXk2kMDnOGybxhur4lEAUyE7CefzuT9XB5o_dfOktflm-hgd08fqP30VA" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-53</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh4.googleusercontent.com/proxy/34Kl2e4y8IrDTbyUsNBpQFn5IqT9_NWQsU91DsipTKX2jMeMIfc3awQLBKJBHBNIsrRYm3LoIAeOU5432y4M0pVIxXlvNSDOu3IOn3elsU0rw0G78g85e61HKu2N9PY9peAhgg https://lh6.googleusercontent.com/proxy/gy8R9qpHKfOnW0d5huqIFVT1ZhYLn1rDaKht74aLXRQMDZtLIuBDEaMTHhBwrq9c6r0sTgSUQOQNVg5AiQ https://lh4.googleusercontent.com/proxy/thXjFHWoycTXhBav30c2iKo3EfXN1kgh8VbU_yXk2kMDnOGybxhur4lEAUyE7CefzuT9XB5o_dfOktflm-hgd08fqP30VA</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -75.915527,23.594194,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Out in the Open Seas</name>
+      <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/y65qYB1X7FA0ClJNJ-QL49xq3zmTwkPh_HNz3GLUTPhLvBZG1yUraRVOMWsZjDTGzJV0WhJYTR0e6M5pJjC3VGqVbxoXJiS5rAc" height="200" width="auto" /><br><br>Sept 10, 1492<br><br> Not much happens in this period of the journey. There is a large gap in time of any really known places. However, Columbus does describe the gentle easterly breezes and relatively calm weather. He compares the tranquil weather to those conditions he is so familiar with in Seville. <br><br> <br>However, at one point, rather ambiguously, Columbus describes a meteorite crashing into the ocean. Of course, his crew members are very frightened and take the occurrence as a bad omen. This serves as an example to the superstitions that many people had at this time. Everything that happened was a sign of God and because so much uncertainty was present, the situation was definitely exacerbated.]]></description>
+      <styleUrl>#icon-193</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh5.googleusercontent.com/proxy/y65qYB1X7FA0ClJNJ-QL49xq3zmTwkPh_HNz3GLUTPhLvBZG1yUraRVOMWsZjDTGzJV0WhJYTR0e6M5pJjC3VGqVbxoXJiS5rAc</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -42.539062,31.203405,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Santa María de la Inmaculada Concepción</name>
+      <description><![CDATA[The first thing Columbus is concerned with when he reaches this island is to search for gold. Here, like in San Salvador, the people walk around naked. However, they wear more gold like bracelets and necklaces. Moreover, the landscape on this island resembles that of San Salvador since the geography is very flat free from mountains and the beaches are beautiful not mottled with rocks. But, because the water is too deep around the island, Columbus decides not to land. Oddly, as the ship is cruising along, Columbus spots a native man in a canoe with bread and other materials. Columbus orders that he come into the boat and he offers the man honey and bread. Selfishly, Columbus wants to keep the man on the ship to his next destination, Fernandina, and treat him well so that when they reach the island other people will give the crew all their possessions because of the man's "good account."]]></description>
+      <styleUrl>#icon-164</styleUrl>
+      <Point>
+        <coordinates>
+          -75.110779,23.834345,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Isabela (Crooked Island)</name>
+      <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/2yn5ViW3JLDAMimdmBk0ezlDZTfmmXInHggPQHKBrqXQwC2HHnpEW2It4HdYJEes7bsVrYbIUylie0sz8XMKkv90pbv-RoZ0hfCeCRfWqf8" height="200" width="auto" /><br><br>Friday, 19 October 1492 <br><br>"[...]and the Indians whom I had aboard(and another from whom I got instructions) told me that a southerly course leads to the island they call Samoet, where the gold is" (Columbus 84). <br><br>When Columbus reached the island he called Isabela, Columbus had the same purpose in mind: to find gold and spices to bring back to Spain. Columbus used the northerly wind to his advantage and rode along the coast to a cape he called "Cabo Hermoso," since it was so beautiful. Here, the trees are very tall and there are hills in the background making for the "most beautiful place I [he] has ever seen." The pungent smell of flowers flows from the shore and Columbus seems mesmorized by their beauty.]]></description>
+      <styleUrl>#icon-61</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh6.googleusercontent.com/proxy/2yn5ViW3JLDAMimdmBk0ezlDZTfmmXInHggPQHKBrqXQwC2HHnpEW2It4HdYJEes7bsVrYbIUylie0sz8XMKkv90pbv-RoZ0hfCeCRfWqf8</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -74.047852,22.654572,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cuba (Colba)</name>
+      <description><![CDATA[As the apparent theme states, Columbus's motives are no different on this island. However, very strategically, because he heard from the inhabitants of Isabela that there was supposedly a lot of gold in Cuba, he sent two Christians and two Indians he attained from his mission onshore so that the natives would not be easily scared. They were to report back to the ship all their findings. When the four men finally return, they talk about the weird round thatched huts in which the people live and how they were treated like gods. All the people, mainly the women kissed the messengers' hands and feet in reverence and came down to the ship with gourds filled with water as a friendly gesture. But, when Columbus actually arrives into the heart of the village and realizes from the people that there in fact is not vast quantites of gold, he decides to leave. The inhabitants tell him that  wealth of gold is actually found on Bohio (present-day Hispaniola). Will Columbus ever find the riches he is looking for?]]></description>
+      <styleUrl>#icon-124</styleUrl>
+      <Point>
+        <coordinates>
+          -77.132263,21.624239,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hispaniola</name>
+      <description><![CDATA[As Columbus is sailing to Bohio, he is met with some fierce opposing winds that prevent him from getting there. However, his mate, Martin Alonso Pinzón, left earlier on his ship out of greed to collect the riches. But this adversity will not stop Columbus in the end...<br><br>It might have taken Columbus a while to arrive at Bohio, but he did on December 5, 1492. Four days later, he named the island Hispaniola. The crew tried to stop several of the natives who were fleeing, but could only manage to catch one girl. The men gave her gifts to calm her down and then had her take them into the village with an Indian to calm the natives down. After the inhabitants were reasurred that Columbus and his crew meant no harm, they were very hospitable and invited them to stay the night with them. However, when Columbus pryed the information out of them that gold was further east, he declined the invitation and set his sails]]></description>
+      <styleUrl>#icon-102</styleUrl>
+      <Point>
+        <coordinates>
+          -73.190918,19.808054,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Navidad</name>
+      <description><![CDATA[Because of the carelessness of a young boy who was put in charge of the Santa Maria, the crew hit a reef and destroyed the ship. Using remains of the ship, however, the crew was able to make a shelter. Columbus called it "Navidad" since the entire incident occurred around Christmas. Unfortunately, because the Nina, the other ship, was the only one in commission and was too small to hold the entire crew, fourty men were left at Navidad. Columbus, luckily met Pinzón and the Pinta on January sixth and the two ships headed back to Spain.]]></description>
+      <styleUrl>#icon-145</styleUrl>
+      <Point>
+        <coordinates>
+          -71.938477,19.55979,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Santa Maria (The Azores)</name>
+      <description>In this general vicinity, The Nina and the Pinta encountered two fierce storms that delayed their arrival to Spain.</description>
+      <styleUrl>#icon-187</styleUrl>
+      <Point>
+        <coordinates>
+          -25.10376,36.985003,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Columbus's Journey to "New Lands"]]></name>
+      <styleUrl>#line-0000FF-5-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -6.976318,37.173449,0
+          -15.441284,28.14466,0
+          -16.193848,28.671311,0
+          -16.809082,28.661671,0
+          -17.248535,28.164033,0
+          -17.484741,28.926439,0
+          -42.533569,31.240985,0
+          -66.165161,28.347899,0
+          -75.673828,23.362429,0
+          -74.959717,22.866053,0
+          -74.536743,22.702722,0
+          -74.050598,22.668511,0
+          -75.342865,22.13526,0
+          -77.132263,21.626793,0
+          -74.871826,21.053744,0
+          -73.168945,19.890723,0
+          -72.592163,20.164255,0
+          -71.960449,19.87006,0
+          -71.949463,19.890723,0
+          -71.971436,19.730513,0
+          -71.949463,19.828725,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Columbus's Navigation Home]]></name>
+      <styleUrl>#line-990000-5-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -71.905518,19.720171,0
+          -49.042969,38.410558,0
+          -25.177917,36.894998,0
+          -25.664062,35.173808,0
+          -18.632812,34.016242,0
+          -9.141998,38.706946,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Lisbon</name>
+      <description><![CDATA[Return: March 5, 1493 <br><br>Word of Columbus&apos;s return spread around Lisbon very quickly. Most people were excited to see this man who succeeded in such a difficult journey and wanted to see the indians he brought back with him. The King offered the Admiral all the refreshment he needed or wanted for that matter that night when he invited Columbus to his home. Moreover, the King had all of his noblemen come and greet him to congratulate him on his long voyage. <br><br>http://www.youtube.com/watch?v=TBOxhtooqJ8&feature=fvw <br> <br>A modern-day crew travels on a hstorically accurate replica of the nina]]></description>
+      <styleUrl>#icon-41</styleUrl>
+      <Point>
+        <coordinates>
+          -9.074707,38.719805,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Columbus's Victory Sail from Lisbon to Palos]]></name>
+      <description><![CDATA[When Columbus arrived back in his native country, everyone was very proud of his feat and like in Lisbon, offered him great thanks. Everyone in the Court came to meet him and when Columbus went to kiss their hands, they refused and stood up in reverence. They then offered the Admiral luxurious lodging for his success. <br><br>This welcoming can be juxtaposed against his fourth and final voyage which was not as successful and was not looked upon with respect. In fact, Columbus died relatively alone and without fame still mistaking that where he reached on his various journeys was the West Indies.]]></description>
+      <styleUrl>#line-990000-5</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -9.261475,38.653343,0
+          -10.05249,37.744657,0
+          -9.459229,36.826875,0
+          -8.031006,36.633162,0
+          -6.954346,37.204082,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Where Columbus Aimed to Travel to</name>
+      <description><![CDATA[As one can see, Columbus was quite a ways away from reaching East Asia. He would have had to navigate around Patagonia and cross the world's largest ocean: the Pacific.]]></description>
+      <styleUrl>#icon-55</styleUrl>
+      <Point>
+        <coordinates>
+          124.804688,10.746969,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
