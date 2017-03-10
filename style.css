@@ -41,6 +41,12 @@ div.pointer {
   rounded".  button#hide meands "the button with the
   id of hide"
 */
+h1.black{
+  color: black;
+}
+p.black{
+  color: black;
+}
 button.rounded {
   -webkit-border-radius:5px;
   -moz-border-radius:5px;
@@ -49,9 +55,18 @@ button.rounded {
 }
 button#hide {
   background:orange;
+  width: 10%;
+  height: 5%;
 }
 button#show {
   background:green;
+  width: 10%;
+  height: 5%;
+}
+button#anim {
+  background: #1971ff;
+  width: 10%;
+  height: 5%;
 }
 
 /* use these last three to style the text inside the
@@ -71,4 +86,3 @@ div.address  {
 div.description {
 
 }
-
