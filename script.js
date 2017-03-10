@@ -52,6 +52,7 @@ var columbus_ico = {
 };
 
 var columbus_to_PR = new google.maps.Polyline({
+  name: "Columbus 1st Voyage (1492)",
   path: columbus_to_PR_coord,
   geodesic: false,
   strokeColor: '#000000',
@@ -95,6 +96,7 @@ var mayflower_ico = {
 };
 
 var mayflower = new google.maps.Polyline({
+  name: "Mayflower Voyage (1620)",
   path: mayflower_coord,
   geodesic: false,
   strokeColor: '#29d100',
@@ -119,6 +121,7 @@ var cargo_ship_coord = [
 ];
 
 var cargo_ship = new google.maps.Polyline({
+  name: "Modern Cargo Ship",
   path: cargo_ship_coord,
   geodesic: false,
   strokeColor: '#f7b000',
@@ -143,6 +146,7 @@ var cargo_plane_coord = [
 ];
 
 var cargo_plane = new google.maps.Polyline({
+  name: "Modern Cargo Plane",
   path: cargo_plane_coord,
   geodesic: true,
   strokeColor: '#ff0087',
@@ -169,6 +173,7 @@ var savannah_coord = [
 ]; //31*24hours
 
 var savannah = new google.maps.Polyline({
+  name: "First Steamship Across Atlantic (1819)",
   path: savannah_coord,
   geodesic: false,
   strokeColor: '#ff0000',
@@ -193,6 +198,7 @@ var zeppelin_coord = [
 ];
 
 var zeppelin = new google.maps.Polyline({
+  name: "First Commercial Transatlantic Flight (1928)",
   path: zeppelin_coord,
   geodesic: true,
   strokeColor: '#727272',
@@ -204,6 +210,31 @@ var zeppelin = new google.maps.Polyline({
   }],
 });
 
+var first_flight_coord =  [
+  {lng: -57.660436, lat: 53.135509}, //NFL
+  {lng: -9.056791, lat: 53.270668} // Galway
+];
+
+var first_flight_ico = {
+  path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW,
+  scale: 4,
+  strokeColor: '#9000ff'
+};
+var first_flight = new google.maps.Polyline({
+  name: "First Continuous Transatlantic Flight (1919)",
+  path: first_flight_coord,
+  geodesic: true,
+  strokeColor: '#9000ff',
+  strokeOpacity: 1.0,
+  strokeWeight: 2,
+  icons: [{
+    icon: first_flight_ico,
+    offset: '0%'
+  }],
+});
+
+var routes = [columbus_to_PR, mayflower, savannah, first_flight, zeppelin, cargo_ship, cargo_plane];
+
 // Use the DOM setInterval() function to change the offset of the symbol
 // at fixed intervals.
 function animateCircle() {
@@ -213,6 +244,7 @@ function animateCircle() {
   var countCS = 0;
   var countP = 0;
   var countZ = 0;
+  var countF = 0;
 
   window.setInterval(function() {
     var speed=8;
@@ -221,7 +253,8 @@ function animateCircle() {
     countS = (countS + 1) % (37200/speed); //744hr
     countCS = (countCS + 1) % (10800/speed); //216
     countP = (countP + 1) % (400/speed); //8hr
-    countZ = (countZ + 1) % (400*112/8/speed); //8hr
+    countZ = (countZ + 1) % (400*112/8/speed); //11days
+    countF = (countF + 1) % (400*16/8/speed); //16hr
 
     var iconC = columbus_to_PR.get('icons');
     iconC[0].offset = (countC / 840*speed) + '%';
@@ -246,6 +279,10 @@ function animateCircle() {
     var iconZ = zeppelin.get('icons');
     iconZ[0].offset = (countZ / (4*112/8)*speed) + '%';
     zeppelin.set('icons', iconZ);
+
+    var iconF = first_flight.get('icons');
+    iconF[0].offset = (countF / (4*16/8)*speed) + '%';
+    first_flight.set('icons', iconF);
 
 
 }, 20);
@@ -274,37 +311,37 @@ function initialize() {
               icon: './media/cc.png', // this sets the image that represents the marker in the map to the one
                              // located at the URL which is given by the variable blueURL, see above
               title: "Christopher Columbus",
-              window_content: "<h1 class='black'>Christopher Columbus</h1><p class='black'> On August 3, 1492, Columbus set sail from the Port of Palos in search of passage to East Asia. After 70 dyas of travelling at sea, Columbus and his crew found land in what is now known as San Salvador</p>"
+              window_content: "<h1 class='black'>Christopher Columbus</h1><p class='black'> On August 3, 1492, Columbus set sail from the Port of Palos in search of passage to East Asia. After 70 days of travelling at sea, Columbus and his crew found land at what is now known as San Salvador</p>"
              },
              {position: new google.maps.LatLng(50.909704,-1.435713),
               map: my_map,
               icon: './media/southampton.png', // this sets the image that represents the marker in the map
               title: "The Mayflower Voyage",
-              window_content: "<h1 class='black'>The Mayflower Voyage</h1><p class='black'> The Mayflower left Southampton port on August 5, 1620 and after some issues with its companion ship ' The Speedwell', arrived at Plymouth and finaly set sail for the West on September 6. After 64 days, the Mayflower arrived in America at Cape Code.</p>"
+              window_content: "<h1 class='black'>The Mayflower Voyage</h1><p class='black'> The Mayflower left Southampton port on August 5, 1620 and after some issues with its companion ship 'The Speedwell', arrived at Plymouth and finaly set sail for the West on September 6. After 64 days, the Mayflower arrived in America at Cape Code.</p>"
             },
             {position: new google.maps.LatLng(50.4227780,-4.1058330),
              map: my_map,
              icon: './media/plymouth.png', // this sets the image that represents the marker in the map
              title: "Plymouth",
-             window_content: "<h1 class='black'>Modern Travel</h1><p class='black'>Today, it only takes 9 days by ship and 8 hours by plane to travel from plymouth to New York City!</p>"
+             window_content: "<h1 class='black'>Modern Travel</h1><p class='black'>Today, it only takes 9 days by ship and 8 hours by plane to travel from Plymouth to New York City!</p>"
            },
             {position: new google.maps.LatLng(32.128464,-81.15147),
              map: my_map,
              icon: './media/savannah.png', // this sets the image that represents the marker in the map
              title: "First Steam Ship Voyage Across Atlantic",
-             window_content: "<h1 class='black'>First Steam Ship Voyage Across Atlantic</h1><p class='black'>On May 24, the Savannah became the first steam ship to set sail across the Atlantic from Savannah, Gerogia and arrived in Liverpool, Englad on June 20. Although the SS Savannah was the first 'steam' ship to make it across the Atlantic, it was technically a steam/sail ship hybrid and only used its enginer for a total of 80 hours of its 29 day voyage.  </p>"
+             window_content: "<h1 class='black'>First Steam Ship Voyage Across Atlantic</h1><p class='black'>On May 24, the SS Savannah became the first steam ship to set sail across the Atlantic from Savannah, Gerogia and arrived in Liverpool, England on June 20. Although the SS Savannah was the first 'steam' ship to make it across the Atlantic, it was technically a steam/sail ship hybrid and only used its engine for a total of 80 hours of its 29 day voyage.</p>"
            },
           {position: new google.maps.LatLng(47.661765,9.480011),
            map: my_map,
            icon: './media/zeppelin.png', // this sets the image that represents the marker in the map
-           title: "First Transatlantic Zeppelin Voyage",
-           window_content: "<h1 class='black'>First Transatlantic Zeppelin Voyage</h1><p class='black'> In October 1928, the Graf Zeppelin made the 111 hour trip from Friedrichshafen, Germany to Lakehurst, New Jersey. Becoming the first zeppeling to make the Transatlantic trip.</p>"
+           title: "First Continuous Transatlantic Flight",
+           window_content: "<h1 class='black'>First Continuous Transatlantic Flight</h1><p class='black'> In October 1928, the Graf Zeppelin made the trip from Friedrichshafen, Germany to Lakehurst, New Jersey in only 111 hours. Becoming the first commercial aircraft to comeplte a transatlantic trip.</p>"
           },
-           {position: new google.maps.LatLng(53.466613,-3.019351),
-            map: my_map,
-            icon: './media/Liverpool.png', // this sets the image that represents the marker in the map
-            title: "third Marker",
-            window_content: "<h1>Marker3</h1><p> and this would be the extended description</p>"
+          {position: new google.maps.LatLng(53.135509,-57.660436),
+           map: my_map,
+           icon: './media/plane.png', // this sets the image that represents the marker in the map
+           title: "First Continuous Transatlantic Flight",
+           window_content: "<h1 class='black'>First Continuous Transatlantic Flight</h1><p class='black'> In 1919, the first continuous transatlantic flight was achieved by between Newfoundland, Canada and Galway, Ireland by John Alcock and Arthur Brown in 16 hours.</p>"
           }
             ];
 
@@ -336,13 +373,23 @@ function initialize() {
 
     }
     //line.setMap(my_map);
-    columbus_to_PR.setMap(my_map);
-    mayflower.setMap(my_map);
-    savannah.setMap(my_map);
-    cargo_ship.setMap(my_map);
-    cargo_plane.setMap(my_map);
-    zeppelin.setMap(my_map);
-    document.getElementById("map_legend").innerHTML = legendHTML;
+    var legend = document.getElementById('map_legend');
+    for (var route of routes){
+      route.setMap(my_map);
+      var div = document.createElement('div');
+      var name = route.name;
+      div.innerHTML = '<HR WIDTH="10%" COLOR="'+route.strokeColor+'" SIZE="3">' + name;
+      legend.appendChild(div);
+    }
+    my_map.controls[google.maps.ControlPosition.LEFT_BOTTOM].push(legend);
+
+
+
+
+    //name.color= "black";
+
+
+  //  document.getElementById("map_legend").innerHTML = legendHTML;
 
 }
 

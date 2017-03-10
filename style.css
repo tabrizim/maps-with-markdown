@@ -22,13 +22,36 @@ div#map_canvas {
 /* this is the legend div. Can you make it into a right sidebar? you may
 have to add some extra css to the mapcontainer div */
 div#map_legend {
-
+  font-family: Arial, sans-serif;
+  background: #fff;
+  padding: 5px;
+  margin: 10px;
+  border: 3px solid #000;
+  width: 18%;
 }
 
 /* if you want, you can make the text in the legend less ugly by adding
 extra css classes */
 div#map_legend h1, div#map_legend h3 {
+   margin-top: 0;
+   color: black;
+}
 
+div#map_legend div{
+  color: black;
+  font-size: 12px;
+  clear: both;
+  vertical-align: middle;
+
+}
+
+div#map_legend HR{
+  float: left;
+}
+
+
+div#map_legend img {
+ vertical-align: middle;
 }
 
 // make it obvious that the legend text is clickable
@@ -68,6 +91,7 @@ button#anim {
   width: 10%;
   height: 5%;
 }
+
 
 /* use these last three to style the text inside the
    infowindows.  They are pretty ugly at the moment,
