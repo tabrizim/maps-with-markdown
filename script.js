@@ -329,7 +329,7 @@ function initialize() {
              map: my_map,
              icon: './media/savannah.png', // this sets the image that represents the marker in the map
              title: "First Steam Ship Voyage Across Atlantic",
-             window_content: "<h1 class='black'>First Steam Ship Voyage Across Atlantic</h1><p class='black'>On May 24, the SS Savannah became the first steam ship to set sail across the Atlantic from Savannah, Gerogia and arrived in Liverpool, England on June 20. Although the SS Savannah was the first 'steam' ship to make it across the Atlantic, it was technically a steam/sail ship hybrid and only used its engine for a total of 80 hours of its 29 day voyage.</p>"
+             window_content: "<h1 class='black'>First Steam Ship Voyage Across Atlantic</h1><p class='black'>On May 24, the SS Savannah became the first steam ship to set sail across the Atlantic from Savannah, Gerogia and arrived in Liverpool, England on June 20. Although the SS Savannah was the first 'steam' ship to make it across the Atlantic, it was technically a steam/sail ship hybrid and only used its engine for a total of 80 hours of its 29 day voyage [13].</p>"
            },
           {position: new google.maps.LatLng(47.661765,9.480011),
            map: my_map,
